@@ -12,28 +12,28 @@ with open("record_class_8.txt", "rb") as fp:
     while 1:
         try:
             record_class_8 = pickle.load(fp)
-            print(record_class_8)
+#             print(record_class_8)
         except EOFError:
             break
 with open("record_class_9.txt", "rb") as fp:
      while 1:
         try:
             record_class_9 = pickle.load(fp)
-            print(record_class_9)
+#             print(record_class_9)
         except EOFError:
             break
 with open("record_class_10.txt", "rb") as fp:
     while 1:
         try:
             record_class_10 = pickle.load(fp)
-            print(record_class_10)
+#             print(record_class_10)
         except EOFError:
             break
 with open("del_earnings.txt", "rb") as fp:
     while 1:
         try:
             del_earnings = pickle.load(fp)
-            print(del_earnings)
+#             print(del_earnings)
         except EOFError:
             break
 
