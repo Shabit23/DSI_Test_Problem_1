@@ -55,6 +55,7 @@ class Student:
         for i in range(0, len(record)):
             if record[i][0] == del_name:
                 del_earnings = del_earnings + record[i][4]
+                print("Student record successfully deleted!!")
             else:
                 temp_list.append(record[i])
     
